@@ -1,0 +1,16 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Terraform local data, state, plans, and variable files
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfplan
+terraform/*.tfvars
+terraform/*.tfvars.json
